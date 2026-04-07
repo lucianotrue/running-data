@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "smoke-30sec",
+  "title": "Piano test 30 secondi",
+  "subtitle": "Smoke test registrazione (30s totali)",
+  "version": 1,
+  "descriptionKey": "plan.smoke_30sec",
+  "days": [
+    {
+      "dayIndex": 0,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 15 },
+          "intensity": "CRF"
+        },
+        {
+          "type": "segment",
+          "action": "walk",
+          "target": { "kind": "time", "seconds": 15 },
+          "intensity": "REC"
+        }
+      ]
+    }
+  ]
+}
