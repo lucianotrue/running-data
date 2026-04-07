@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "id": "14h-al-mese-turbo",
+  "title": "14 ore al mese per mettere il turbo",
+  "subtitle": "4 settimane · 16 sessioni",
+  "version": 1,
+  "descriptionKey": "14h-al-mese-turbo",
+  "days": [
+    {
+      "dayIndex": 0,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3300 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 300 }, "intensity": "CRLI" }
+      ]
+    },
+    {
+      "dayIndex": 1,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1680 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1740 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 60 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3480 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRLI" }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1140 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 60 }, "intensity": "CRLI" }
+          ]
+        },
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1680 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1140 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 60 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3300 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 180 }, "intensity": "CRLI" }
+      ]
+    },
+    {
+      "dayIndex": 7,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3000 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 300 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 8,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1620 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 180 }, "intensity": "CRLI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 9,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 2700 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 600 }, "intensity": "CRLI" }
+      ]
+    },
+    {
+      "dayIndex": 10,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3000 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 300 }, "intensity": "CRLI" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRI" }
+      ]
+    },
+    {
+      "dayIndex": 11,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 2400 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1200 }, "intensity": "CRLI" }
+      ]
+    },
+    {
+      "dayIndex": 12,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3000 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 180 }, "intensity": "CRLI" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRI" }
+      ]
+    },
+    {
+      "dayIndex": 13,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 1500 }, "intensity": "CRF" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 300 }, "intensity": "CRLI" },
+            { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 120 }, "intensity": "CRI" }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 14,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 2700 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 600 }, "intensity": "CRLI" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 300 }, "intensity": "CRI" }
+      ]
+    },
+    {
+      "dayIndex": 15,
+      "targetUnit": "min",
+      "nodes": [
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 3000 }, "intensity": "CRF" },
+        { "type": "segment", "action": "run", "target": { "kind": "time", "seconds": 600 }, "intensity": "CRLI" }
+      ]
+    }
+  ]
+}
