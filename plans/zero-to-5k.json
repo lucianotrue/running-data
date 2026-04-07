@@ -1,0 +1,21 @@
+{
+  "id": "zero-to-5k",
+  "title": "Da 0 a 5km",
+  "version": 1,
+  "days": [
+    {
+      "dayIndex": 0,
+      "intervals": [
+        { "phase": "run", "seconds": 120 },
+        { "phase": "walk", "seconds": 60 }
+      ]
+    },
+    {
+      "dayIndex": 1,
+      "intervals": [
+        { "phase": "run", "seconds": 180 },
+        { "phase": "walk", "seconds": 90 }
+      ]
+    }
+  ]
+}
