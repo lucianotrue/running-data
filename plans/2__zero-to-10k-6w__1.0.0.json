@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 2,
+  "id": "zero-to-10k-6w",
+  "title": "Da 0 a 10 km",
+  "subtitle": "6 settimane · 3 sessioni",
+  "version": 1,
+  "descriptionKey": "zero-to-10k-6w",
+  "days": [
+    {
+      "dayIndex": 0,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 6,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "CRLI"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 60 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 1,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 4,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 240 },
+              "intensity": "CRLI"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 600 },
+              "intensity": "CRF"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 300 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 600 },
+              "intensity": "CRF"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 720 },
+              "intensity": "CRF"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 900 },
+              "intensity": "CRF"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 180 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1200 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 7,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 600 },
+              "intensity": "CRLI"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 8,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 2,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 1200 },
+              "intensity": "CRF"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 180 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 9,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1500 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 10,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 600 },
+              "intensity": "CRLI"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 11,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1800 },
+          "intensity": "CRF"
+        },
+        {
+          "type": "segment",
+          "action": "walk",
+          "target": { "kind": "time", "seconds": 180 },
+          "intensity": "REC"
+        },
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1200 },
+          "intensity": "CRLI"
+        }
+      ]
+    },
+    {
+      "dayIndex": 12,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1800 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 13,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "repeat_block",
+          "count": 3,
+          "children": [
+            {
+              "type": "segment",
+              "action": "run",
+              "target": { "kind": "time", "seconds": 600 },
+              "intensity": "CRLI"
+            },
+            {
+              "type": "segment",
+              "action": "walk",
+              "target": { "kind": "time", "seconds": 120 },
+              "intensity": "REC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 14,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 3000 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 15,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1200 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 16,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 1200 },
+          "intensity": "CRF"
+        }
+      ]
+    },
+    {
+      "dayIndex": 17,
+      "targetUnit": "min",
+      "nodes": [
+        {
+          "type": "segment",
+          "action": "run",
+          "target": { "kind": "time", "seconds": 3600 },
+          "intensity": "CRF"
+        }
+      ]
+    }
+  ]
+}
